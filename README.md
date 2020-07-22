@@ -3,7 +3,7 @@ How to modify the GridHyperLinkColumn text in WinForms DataGrid (SfDataGrid)?
 
 By default, the text in GridHypelinkColumn will be updated with provided link. To change the text of hyperlink in the cells, the DisplayText can be changed based on our requirement using SfDataGrid.DrawCell event.
 
-```
+```C#
 //Event subscription
 this.sfDataGrid1.DrawCell += SfDataGrid1_DrawCell;
 
